@@ -132,7 +132,7 @@ header {
 }
 
 #nav li {
-    font-size: 14px;
+    font-size: 18px;
     padding: 0;
 }
 
@@ -169,7 +169,7 @@ header {
 
 /* ---------------------------------------------------------Hover.css */
 
-.hvr-sweep-to-bottom:before {
+.hvr-sweep-to-bottom::before {
     background: rgb(0,0,0,0.2);
     height: 120px;
 }
