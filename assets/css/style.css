@@ -35,7 +35,7 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #ffc107;
 }
 
 .ui-menu-color-resume {
@@ -43,11 +43,11 @@
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #007bff;
 }
 
 .ui-menu-color-download {
-    background-color: #d9a81d;
+    background-color: #28a745;
 }
 
 
@@ -184,6 +184,10 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+  }
 
 
 /*--------------------------------------------Hover.css*/
@@ -407,3 +411,4 @@ div#map {
         max-width: 50%;
     }
 }
+
